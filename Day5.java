@@ -151,3 +151,89 @@ public class Main
 
 }
 
+
+// Greatest number among the three numbers.
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        System.out.print("Enter Three numbers: ");
+        Scanner sc = new Scanner(System.in);
+
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int num3 = sc.nextInt();
+
+        int temp = num1;
+
+        if(num2 > temp)
+            temp = num2;
+
+        if(num3 > temp)
+            temp = num3;
+
+        System.out.println(STR."The Greatest number among three numbers: \{temp}");
+
+
+    }
+
+}
+
+// this is alternate for Greatest number among three numbers.
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        System.out.print("Enter three numbers: ");
+
+        Scanner sc = new Scanner(System.in);
+
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int num3 = sc.nextInt();
+
+        if(num1 > num2)
+            if(num2 > num3)
+                System.out.print(STR."The Greatest number among the three numbers: \{num1}");
+            else System.out.print(STR."The Greatest number among the three numbers: \{num3}");
+
+        else
+            if(num1 > num3)
+                System.out.print(STR."The Greater number among the three number: \{num2}");
+            else System.out.print(STR."The Greater number among the three number: \{num3}");
+    }
+}
+
+// This is one more alternative logic for Greatest number in three numbers.
+
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+
+                System.out.print("Enter three numbers: ");
+
+                Scanner sc = new Scanner(System.in);
+
+                int num1 = sc.nextInt();
+                int num2 = sc.nextInt();
+                int num3 = sc.nextInt();
+
+                if(num1 >= num2 && num2 >= num3)
+                    System.out.print(STR."The Greatest number is: \{num1}");
+
+                else
+                    if(num2 >= num3 )
+                        System.out.print(STR."The Greatest number is: \{num2}");
+                else System.out.print(STR."The Greatest number is: \{num3}");
+
+    }
+}
+
+
+
