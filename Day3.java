@@ -2,153 +2,151 @@
  import java.util.*;
 
 
-// public class Day3{
-//    public static void main(String[] args) {
+ public class Day3{
+    public static void main(String[] args) {
 
-//       System.out.println("Aadarshkumar");
-//       int [] arr = new int[5];
+       System.out.println("Aadarshkumar");
+       int [] arr = new int[5];
 
-//       Scanner sc = new Scanner(System.in);
+       Scanner sc = new Scanner(System.in);
 
-//       for(int i=0; i < arr.length; i++)
-//           arr[i] = sc.nextInt();
+       for(int i=0; i < arr.length; i++)
+           arr[i] = sc.nextInt();
 
 
 
-//       for(int i=0; i< arr.length; i++)
-//           System.out.println("arr["+ i +"]=" + arr[i] );
+       for(int i=0; i< arr.length; i++)
+           System.out.println("arr["+ i +"]=" + arr[i] );
 
 
-//    }
-// }
+    }
+ }
 
 
 
-// public class Day3{
+ public class Day3{
 
-//    public static void main(String[] args)
-//    {
-//        int[] arr = new int[10];
-//        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args)
+    {
+        int[] arr = new int[10];
+        Scanner sc = new Scanner(System.in);
 
-//        for(int i=0; i < arr.length; i++)
-//            arr[i] = sc.nextInt();
+        for(int i=0; i < arr.length; i++)
+            arr[i] = sc.nextInt();
 
 
-//        for(int i=0; i< arr.length-1; i++)
+        for(int i=0; i< arr.length-1; i++)
 
-//            if(arr[i] > arr[i+1])
-//                 arr[i+1]= arr[i] + arr[i+1] -(arr[i] = arr[i+1]);
+            if(arr[i] > arr[i+1])
+                 arr[i+1]= arr[i] + arr[i+1] -(arr[i] = arr[i+1]);
 
-//        System.out.println("The largest elements in array is: "+ arr[arr.length-1]);
+        System.out.println("The largest elements in array is: "+ arr[arr.length-1]);
 
-//    }
+    }
 
-// }
+ }
 
 
 
 
-// public class Day3
-//{
-//    public static void main(String[] args)
-//    {
-//        int[] arr = new int[10];
-//        Scanner sc = new Scanner(System.in);
+ public class Day3
+{
+    public static void main(String[] args)
+    {
+        int[] arr = new int[10];
+        Scanner sc = new Scanner(System.in);
 
-//        for(int i=0; i < arr.length; i++)
-//            arr[i] = sc.nextInt();
+        for(int i=0; i < arr.length; i++)
+            arr[i] = sc.nextInt();
 
 
-//        for(int i=0; i< arr.length-1; i++)
+        for(int i=0; i< arr.length-1; i++)
 
-//            if(arr[i] < arr[i+1])
-//                arr[i+1]= arr[i] + arr[i+1] -(arr[i] = arr[i+1]);
+            if(arr[i] < arr[i+1])
+                arr[i+1]= arr[i] + arr[i+1] -(arr[i] = arr[i+1]);
 
-//        System.out.println("The lowest elements in array is: "+ arr[arr.length-1]);
+        System.out.println("The lowest elements in array is: "+ arr[arr.length-1]);
 
-//    }
+    }
+ }
 
-// }
 
 
+ public class Day3
+{
+    public static void main(String[] args)
+    {
+        int[] arr = new int[10];
+        Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter numbers in array"+arr.length +" elements: ");
 
-// public class Day3
-//{
-//    public static void main(String[] args)
-//    {
-//        int[] arr = new int[10];
-//        Scanner sc = new Scanner(System.in);
 
-//        System.out.print("Enter numbers in array"+arr.length +" elements: ");
+        for(int i=0; i < arr.length; i++)
+            arr[i] = sc.nextInt();
 
+        System.out.print("The Elements on Even position is: ");
 
-//        for(int i=0; i < arr.length; i++)
-//            arr[i] = sc.nextInt();
+        for(int i=1; i <= arr.length-1; i+=2)
 
-//        System.out.print("The Elements on Even position is: ");
+            System.out.print(arr[i]+ " ");
 
-//        for(int i=1; i <= arr.length-1; i+=2)
 
-//            System.out.print(arr[i]+ " ");
+    }
 
+ }
 
-//    }
 
-// }
 
 
+ public class Day3
+ {
 
+    public static void main(String[] args)
+    {
+        int[] arr = new int[10];
+        Scanner sc = new Scanner(System.in);
 
-// public class Day3
-// {
+        System.out.println("Enter a elements in array: ");
 
-//    public static void main(String[] args)
-//    {
-//        int[] arr = new int[10];
-//        Scanner sc = new Scanner(System.in);
+        for(int i=0; i < arr.length; i++)
+            arr[i] = sc.nextInt();
 
-//        System.out.println("Enter a elements in array: ");
+        System.out.println(" ");
 
-//        for(int i=0; i < arr.length; i++)
-//            arr[i] = sc.nextInt();
+        for(int i= arr.length-1; i>=0 ; i--)
+            System.out.print( arr[i] + " " );
 
-//        System.out.println(" ");
+    }
 
-//        for(int i= arr.length-1; i>=0 ; i--)
-//            System.out.print( arr[i] + " " );
+ }
 
-//    }
 
-// }
 
 
+ public class Main{
 
+    public static void main(String[] args)
+    {
+        int[] arr = new int[10];
+        Scanner sc = new Scanner(System.in);
 
-// public class Main{
+        System.out.print("Enter numbers in array"+arr.length +" elements: ");
 
-//    public static void main(String[] args)
-//    {
-//        int[] arr = new int[10];
-//        Scanner sc = new Scanner(System.in);
 
-//        System.out.print("Enter numbers in array"+arr.length +" elements: ");
+        for(int i=0; i < arr.length; i++)
+            arr[i] = sc.nextInt();
 
+        System.out.print("The Elements on Odd position is: ");
 
-//        for(int i=0; i < arr.length; i++)
-//            arr[i] = sc.nextInt();
+        for(int i=0; i <= arr.length-1; i+=2)
 
-//        System.out.print("The Elements on Odd position is: ");
+            System.out.print(arr[i]+ " ");
 
-//        for(int i=0; i <= arr.length-1; i+=2)
 
-//            System.out.print(arr[i]+ " ");
+    }
 
-
-//    }
-
-// }
+}
 
 
 
@@ -192,87 +190,87 @@ public class Day3
 
 
 
-// public class Main{
+ public class Main{
 
-//    public static void main(String[] args)
-//    {
-//        int[] arr = new int[10];
-//        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args)
+    {
+        int[] arr = new int[10];
+        Scanner sc = new Scanner(System.in);
 
-//        System.out.print("Enter numbers in array"+arr.length +" elements: ");
-
-
-//        for(int i=0; i < arr.length; i++)
-//            arr[i] = sc.nextInt();
-
-//        System.out.print("The Elements on array in ascending order is: ");
-
-//        for(int i=0; i < arr.length-1; i+=1)
-//            for(int j=0; j<arr.length-1-i; j++)
-
-//                if(arr[j] > arr[j+1])
-//                    arr[j+1] = arr[j+1]  + arr[j] -(arr[j] = arr[j+1]);
-
-//        for(int i=0; i< arr.length; i++)
-//            System.out.print(arr[i] + " ");
-
-//    }
-
-// }
+        System.out.print("Enter numbers in array"+arr.length +" elements: ");
 
 
+        for(int i=0; i < arr.length; i++)
+            arr[i] = sc.nextInt();
 
+        System.out.print("The Elements on array in ascending order is: ");
 
+        for(int i=0; i < arr.length-1; i+=1)
+            for(int j=0; j<arr.length-1-i; j++)
 
-// public class Main{
+                if(arr[j] > arr[j+1])
+                    arr[j+1] = arr[j+1]  + arr[j] -(arr[j] = arr[j+1]);
 
-//     public static void main(String[] args)
-//     {
-//         int[] arr = new int[10];
-//         Scanner sc = new Scanner(System.in);
+        for(int i=0; i< arr.length; i++)
+            System.out.print(arr[i] + " ");
 
-//         System.out.print("Enter numbers in array"+arr.length +" elements: ");
+    }
 
-
-//         for(int i=0; i < arr.length; i++)
-//             arr[i] = sc.nextInt();
-
-//         System.out.print("The second largest elements in array is: ");
-
-//         for(int i=0; i <= 1; i+=1)
-//             for(int j=0; j<arr.length-1-i; j++)
-
-//                 if(arr[j] > arr[j+1])
-//                     arr[j+1] = arr[j+1]  + arr[j] -(arr[j] = arr[j+1]);
-
-//         //for(int i=0; i< arr.length; i++)
-//             System.out.print(arr[arr.length-2] + " ");
-
-//     }
-
-// }
+ }
 
 
 
 
-// public class Day3
-// {
-//     public static void main(String[] args)
-//     {
-//         int num;
-//         Scanner sc = new Scanner(System.in);
 
-//         num = sc.nextInt();
+ public class Main{
 
+     public static void main(String[] args)
+     {
+         int[] arr = new int[10];
+         Scanner sc = new Scanner(System.in);
 
-//         int[] arr = new int[num];
-
-//         for(int i= 0; i < arr.length-1; i++)
-//         {
-//             for(int j=i+1; j < arr.length-2; j++)
+         System.out.print("Enter numbers in array"+arr.length +" elements: ");
 
 
+        for(int i=0; i < arr.length; i++)
+             arr[i] = sc.nextInt();
 
-//         }
-//     }
-// }
+         System.out.print("The second largest elements in array is: ");
+
+         for(int i=0; i <= 1; i+=1)
+             for(int j=0; j<arr.length-1-i; j++)
+
+                 if(arr[j] > arr[j+1])
+                     arr[j+1] = arr[j+1]  + arr[j] -(arr[j] = arr[j+1]);
+
+         //for(int i=0; i< arr.length; i++)
+             System.out.print(arr[arr.length-2] + " ");
+
+     }
+
+ }
+
+
+
+
+ public class Day3
+ {
+     public static void main(String[] args)
+     {
+         int num;
+         Scanner sc = new Scanner(System.in);
+
+         num = sc.nextInt();
+
+
+         int[] arr = new int[num];
+
+         for(int i= 0; i < arr.length-1; i++)
+         {
+             for(int j=i+1; j < arr.length-2; j++)
+
+
+
+         }
+     }
+ }
